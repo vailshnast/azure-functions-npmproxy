@@ -11,7 +11,7 @@ It acts as a proxy that handles all search/all requests internally in a function
 ## Deployment and configuration
 
 - Deploy to a Function App. I tested with an Azure Function in the `Consumption` tier.
-- Use Azure Function Runtime 3. Functions Runtime V4 is not supported.
+- Use Azure Function Runtime 3. Functions Runtime V4 is not supported..
 - All required configuration details are passed to the Azure Function in the function call (HTTP request)
 - No appSettings need to be changed
 
